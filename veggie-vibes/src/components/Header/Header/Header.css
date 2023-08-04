@@ -1,0 +1,90 @@
+header {
+    background-color:  #a8c66c;
+    padding: 7px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the logo width as needed */
+  }
+  
+  /* Rest of the CSS styles as provided in the initial code */
+
+  
+  
+  /* Define the font family for the heading */
+  .website-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Add this to create a horizontal menu on larger screens */
+  }
+  
+  nav li {
+    margin-left: 20px;
+    display: flex; /* Add this to ensure menu items are in a row */
+    align-items: center; /* Align items vertically within the flex container */
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 18px;
+    /* Add initial background color for menu items */
+    background-color: #a8c66c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* Change the text color to a different color */
+    color:  #FBEEC1; /* You can set the color value to any desired color */
+  }
+  
+  /* Add hover effect on menu item */
+  nav a:hover {
+    background-color: #a8c66c;
+    /* You can change the background color to any desired color on hover */
+    /* Optionally, you can also change the text color on hover */
+    color: #FFFFFF;
+  }
+  
+  /* Style the search input field and button */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .search-box button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px; /* Add some spacing between the input field and the button */
+  } 
